@@ -6,7 +6,7 @@
  * @author Violetech (https://www.violetech.co.uk)
  */
 
-require_once( __DIR__ . "/Router.php" );
+require_once( __DIR__ . "/SimpleRouter.php" );
 
 $router = new Violetech\SimpleRouter();
 $router->route(
